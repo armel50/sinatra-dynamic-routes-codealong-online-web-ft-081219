@@ -21,7 +21,7 @@ class App < Sinatra::Base
   get "/multiply/:num1/:num2" do 
     # "#{params[:num1] * params[:num2]}"
     
-    "<!DOCTYPE html>\n<html>\n<head>\n  <meta http-equiv=\"Content-Type\" content=\"text/html; charset=ut...nabled the <code>show_exceptions</code>setting.</p>\n  </div> <!-- /WRAP -->\n #{params[:num1] * params[:num2]} </body>\n</html>\n"
+
     erb :multiply
   end
 
